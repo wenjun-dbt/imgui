@@ -21,6 +21,10 @@ project "ImGui"
 		"imgui_demo.cpp"
 	}
 
+	defines
+	{
+		"GLFW_INCLUDE_NONE"
+	}
 	filter "system:windows"
 		systemversion "latest"
 		cppdialect "C++17"
